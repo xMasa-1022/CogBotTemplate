@@ -1,0 +1,13 @@
+{
+    "client": {
+        "token": "",
+        "prefix": "",
+        "cogs": [
+    "cogs.admin",
+    "cogs.help_command",
+    "cogs.main"
+        ],
+        "owners": [
+        ]
+    }
+}
