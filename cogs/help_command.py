@@ -16,7 +16,7 @@ class HelpCommand(commands.Cog):
 
 # ----- Help Command ----- #
 # >> StartPage
-        startpage = discord.Embed(title = f"{ctx.guild.name}", description = f"> {self.bot.name}のヘルプです！", color = 0xfbbedf)
+        startpage = discord.Embed(title = f"{ctx.guild.name}", description = f"> {self.bot.user.name}のヘルプです！", color = 0xfbbedf)
     # └> StartPage Footer
         startpage.set_footer(text = f"{ctx.author}", icon_url = f"{ctx.author.avatar.url}")
 
