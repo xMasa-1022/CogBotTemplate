@@ -6,6 +6,7 @@ import config as cf
 token = cf.token
 prefix = cf.prefix
 cogs = cf.cogs
+owners = cf.owners
 #
 class MyBot(commands.Bot):
 
@@ -32,4 +33,5 @@ class MyBot(commands.Bot):
 
 if __name__ == '__main__':
     bot = MyBot(command_prefix=prefix, intents = discord.Intents.all())
+    bot.owners = owners
     bot.run(token)
